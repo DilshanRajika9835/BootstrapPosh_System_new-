@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" href="img/logo.png">
+    <title>Keels_Super_Center</title>
+    <style>
+        @media all and (min-width:483px )and (max-width:621px ) {
+
+            #item_table{
+                font-size: 9px!important;
+
+            }
+            .table > :not(caption) > * > * {
+                padding: 0;
+            }
+
+        }
+    </style>
+</head>
+<body style="overflow-x: hidden">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark  ">
+    <div class="container-fluid ">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png"alt="image" style="width: 59px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="CustomerForm.html">CUSTOMER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="OrderForm.html">ORDER</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ItemForm.html">ITEM</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Other
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="OrderFormTM.html">Order_Details</a></li>
+                        <li><a class="dropdown-item" href="#">About</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--------------------------------------->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/img2.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item active">
+            <img src="img/img1.png" class="d-block w-100" alt="...">
+        </div>
+
+    </div>
+</div>
+<!--------------------------------------->
+<div class="container-fluid  mt-3 mb-3 ">
+    <div class="row">
+        <div class=" border m-1 ">
+            <table class="table caption-top table-hover  " id="item_table">
+                <caption>List of Order_Details</caption>
+                <thead class="btn-danger">
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Order ID</th>
+                    <th scope="col">Item Code</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Unit Price(Rs/=) </th>
+                    <th scope="col">qty</th>
+                    <th scope="col">Total</th>
+
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>ORD001</td>
+                    <td>IEM0034</td>
+                    <td>Anchor Milk Pack</td>
+                    <td>Anchor Milk Pack 400g </td>
+                    <td>450.00</td>
+                    <td>3</td>
+                    <td>1350</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>ORD002</td>
+                    <td>IEM0034</td>
+                    <td>Anchor Milk Pack</td>
+                    <td>Anchor Milk Pack 400g </td>
+                    <td>450.00</td>
+                    <td>3</td>
+                    <td>1350</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>ORD003</td>
+                    <td>IEM0034</td>
+                    <td>Anchor Milk Pack</td>
+                    <td>Anchor Milk Pack 400g </td>
+                    <td>450.00</td>
+                    <td>3</td>
+                    <td>1350</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+</div>
+
+<!--------------------------------------->
+
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
